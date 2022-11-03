@@ -1,0 +1,24 @@
+{
+    "name": "edisukakoding/tembung",
+    "description": "Tembung is a random motivational quotes generator in Indonesian.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Tembung\\": "src/Tembung"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edi Hartono",
+            "email": "edi.sukakoding@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "require": {
+        "php": ">=8.0.0",
+        "ext-json": "*"
+    }
+}
