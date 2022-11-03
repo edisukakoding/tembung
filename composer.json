@@ -1,6 +1,6 @@
 {
     "name": "edisukakoding/tembung",
-    "description": "Tembung is a random motivational quotes generator in Indonesian.",
+    "description": "Tembung is a generator to generate motivation in Indonesian",
     "type": "library",
     "autoload": {
         "psr-4": {
