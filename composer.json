@@ -2,6 +2,7 @@
     "name": "edisukakoding/tembung",
     "description": "Tembung is a generator to generate motivation in Indonesian",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Tembung\\": "src/Tembung"
