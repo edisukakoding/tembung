@@ -15,11 +15,15 @@ Then use it:
 ```php
 <?php
 
-require 'vendor/autoload.php';
+require_once 'vendor/autoload.php';
 
-use Motivator\Motivator;
+use Tembung\Tembung;
 
-echo Motivator::say(); // Prints out something motivating.
+try {
+    echo Tembung::say();
+} catch (JsonException $e) {
+    echo $e->getTraceAsString();
+}; // Prints out something quotes.
 ```
 
 ## License
