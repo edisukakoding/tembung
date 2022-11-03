@@ -22,7 +22,7 @@ use Tembung\Tembung;
 try {
     echo Tembung::say();
 } catch (JsonException $e) {
-    echo $e->getTraceAsString();
+    echo $e->getMessage();
 }; // Prints out something quotes.
 ```
 
